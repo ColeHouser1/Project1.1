@@ -1,0 +1,108 @@
+/* Global styles */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background-color: #3B0069;
+  color: #fff;
+}
+
+header {
+  background-color: #4B0082;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: gold;
+}
+
+nav {
+  background-color: #2E0057;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.75rem;
+}
+
+nav a {
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #4B0082;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: gold;
+  border-bottom: 2px solid gold;
+  padding-bottom: 0.3rem;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.item-card {
+  background-color: #2E0057;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+.item-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button, input[type="submit"] {
+  background-color: gold;
+  color: #2E0057;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input, textarea {
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #2E0057;
+  text-align: center;
+  padding: 1rem;
+  color: gold;
+  margin-top: 2rem;
+}
